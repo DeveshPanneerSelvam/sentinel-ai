@@ -1,0 +1,16 @@
+timestamp,event_type,user,source_ip,destination_ip,action,status,country,latitude,longitude,privilege,bytes_out
+2026-07-02T08:00:00Z,auth,alice,203.0.113.10,,login,failed,US,37.7749,-122.4194,user,0
+2026-07-02T08:01:00Z,auth,alice,203.0.113.10,,login,failed,US,37.7749,-122.4194,user,0
+2026-07-02T08:02:00Z,auth,alice,203.0.113.10,,login,failed,US,37.7749,-122.4194,user,0
+2026-07-02T08:03:00Z,auth,alice,203.0.113.10,,login,failed,US,37.7749,-122.4194,user,0
+2026-07-02T08:04:00Z,auth,alice,203.0.113.10,,login,failed,US,37.7749,-122.4194,user,0
+2026-07-02T08:05:00Z,auth,alice,203.0.113.10,,login,success,US,37.7749,-122.4194,user,0
+2026-07-02T09:10:00Z,auth,alice,198.51.100.22,,login,success,DE,52.5200,13.4050,user,0
+2026-07-02T09:30:00Z,privilege,bob,10.0.4.15,,role_update,success,US,40.7128,-74.0060,admin,0
+2026-07-02T10:00:00Z,network,service-api,10.0.8.20,45.77.12.9,egress,success,US,37.7749,-122.4194,service,512
+2026-07-02T10:05:00Z,network,service-api,10.0.8.20,45.77.12.9,egress,success,US,37.7749,-122.4194,service,530
+2026-07-02T10:10:00Z,network,service-api,10.0.8.20,45.77.12.9,egress,success,US,37.7749,-122.4194,service,498
+2026-07-02T10:15:00Z,network,service-api,10.0.8.20,45.77.12.9,egress,success,US,37.7749,-122.4194,service,520
+2026-07-02T10:20:00Z,network,service-api,10.0.8.20,45.77.12.9,egress,success,US,37.7749,-122.4194,service,510
+2026-07-02T10:21:00Z,network,backup,10.0.9.10,203.0.113.200,egress,success,US,37.7749,-122.4194,service,9000000
+
