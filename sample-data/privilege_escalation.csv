@@ -1,0 +1,2 @@
+timestamp,event_type,user,source_ip,destination_ip,action,status,country,latitude,longitude,privilege,bytes_out
+2026-07-07T16:30:00Z,privilege,grace,10.0.5.18,,role_update,success,US,40.7128,-74.0060,admin,0

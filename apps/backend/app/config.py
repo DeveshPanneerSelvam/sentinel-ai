@@ -10,7 +10,10 @@ class Settings(BaseSettings):
     jwt_algorithm: str = "HS256"
     access_token_minutes: int = 60 * 12
     openai_api_key: str | None = None
-    cors_origins: str = "http://localhost:3000"
+    # Support both common local development origins. Browsers treat localhost
+    # and 127.0.0.1 as distinct origins, so allowing only one prevents the
+    # dashboard's authenticated CSV upload from reaching the API.
+    cors_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
@@ -22,4 +25,3 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
-

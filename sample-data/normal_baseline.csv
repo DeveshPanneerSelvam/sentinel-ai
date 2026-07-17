@@ -1,0 +1,6 @@
+timestamp,event_type,user,source_ip,destination_ip,action,status,country,latitude,longitude,privilege,bytes_out
+2026-07-03T08:00:00Z,auth,carol,198.51.100.40,,login,success,US,37.7749,-122.4194,user,0
+2026-07-03T08:15:00Z,auth,carol,198.51.100.40,,login,success,US,37.7749,-122.4194,user,0
+2026-07-03T08:30:00Z,network,web-api,10.0.2.12,198.51.100.50,egress,success,US,37.7749,-122.4194,service,1200
+2026-07-03T09:10:00Z,network,web-api,10.0.2.12,198.51.100.50,egress,success,US,37.7749,-122.4194,service,1500
+2026-07-03T09:50:00Z,auth,dave,198.51.100.41,,login,success,US,40.7128,-74.0060,user,0

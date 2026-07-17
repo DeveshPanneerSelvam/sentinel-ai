@@ -1,0 +1,6 @@
+timestamp,event_type,user,source_ip,destination_ip,action,status,country,latitude,longitude,privilege,bytes_out
+2026-07-04T12:00:00Z,auth,erin,203.0.113.44,,login,failed,US,34.0522,-118.2437,user,0
+2026-07-04T12:02:00Z,auth,erin,203.0.113.44,,login,failed,US,34.0522,-118.2437,user,0
+2026-07-04T12:04:00Z,auth,erin,203.0.113.44,,login,failed,US,34.0522,-118.2437,user,0
+2026-07-04T12:06:00Z,auth,erin,203.0.113.44,,login,failed,US,34.0522,-118.2437,user,0
+2026-07-04T12:08:00Z,auth,erin,203.0.113.44,,login,failed,US,34.0522,-118.2437,user,0

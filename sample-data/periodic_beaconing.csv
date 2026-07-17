@@ -1,0 +1,6 @@
+timestamp,event_type,user,source_ip,destination_ip,action,status,country,latitude,longitude,privilege,bytes_out
+2026-07-06T14:00:00Z,network,build-agent,10.0.3.21,203.0.113.91,egress,success,US,47.6062,-122.3321,service,420
+2026-07-06T14:05:00Z,network,build-agent,10.0.3.21,203.0.113.91,egress,success,US,47.6062,-122.3321,service,415
+2026-07-06T14:10:00Z,network,build-agent,10.0.3.21,203.0.113.91,egress,success,US,47.6062,-122.3321,service,418
+2026-07-06T14:15:00Z,network,build-agent,10.0.3.21,203.0.113.91,egress,success,US,47.6062,-122.3321,service,421
+2026-07-06T14:20:00Z,network,build-agent,10.0.3.21,203.0.113.91,egress,success,US,47.6062,-122.3321,service,419
